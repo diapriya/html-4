@@ -1,0 +1,214 @@
+.heading{
+    color: limegreen;
+    background-color: lightseagreen;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: #000000;
+    padding: 15px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+a:link{
+   
+    color: gold;
+}
+
+a:visited{
+    color: #f7f2f3;
+}
+
+body{
+    margin: 40px;
+    background-color: #f7f2f3;
+}
+.grid img{
+ border: 2px solid #000000;
+ border-radius: 50px;
+}
+
+.teddy{
+    border-radius: 20px;
+    float: left;
+    background-color:lemonchiffon;
+    padding: 30px;
+    margin: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 600px;
+    height: 350px;
+}
+
+.teddy:hover img{
+    opacity: 0.33;
+    transform: scale(1.2)
+}
+
+.teddy p{
+    opacity: 0;
+}
+
+.teddy:hover p{
+    position: absolute;
+    top: 110%;
+    left: 22%;
+    transform: translate(-50%,-50%);
+    opacity: 1;
+}
+
+.cicada{
+    border-radius: 20px;
+    float: left;
+    background-color: lightsteelblue;
+    margin: 30px;
+    padding: 25px;
+    display: initial;
+    justify-content: space-evenly;
+    flex-wrap:wrap;
+    width: 600px;
+    height: 350px;
+}
+
+.cicada:hover img{
+    opacity: 0.33;
+    transform: scale(1.2)
+}
+
+.cicada p{
+    opacity: 0;
+}
+
+.cicada:hover p{
+    position: absolute;
+    top: 110%;
+    left: 60%;
+    transform: translate(-50%,-50%) ;
+    opacity: 1;
+}
+.panda{
+    border-radius: 20px;
+    float: left;
+    background-color: lightcyan;
+    margin: 30px;
+    padding: 25px;
+    display: initial;
+    justify-content: space-evenly;
+    flex-wrap:wrap;
+    width: 600px;
+    height: 350px;
+}
+
+.panda:hover img{
+    opacity: 0.33;
+    transform: scale(1.2)
+}
+
+.panda p{
+    opacity: 0;
+}
+
+.panda:hover p{
+    position: absolute;
+    top: 170%;
+    left: 12%;
+    transform: translate(-50%,-50%);
+    opacity: 1;
+}
+
+.pigeon{
+    border-radius: 20px;
+    float: left;
+    background-color: lightpink;
+    margin: 30px;
+    padding: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 600px;
+    height: 350px;
+}
+
+.pigeon:hover img{    
+    opacity: 0.33;
+    transform: scale(1.2)
+}
+
+.pigeon p{
+    opacity: 0;
+}
+
+.pigeon:hover p{
+    position: absolute;
+    top: 180%;
+    left: 68%;
+    transform: translate(-50%,-50%);
+    opacity: 1;
+}
+
+.chameleon{
+    border-radius: 20px;
+    float: left;
+    background-color: thistle;
+    margin: 30px;
+    padding: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 600px;
+    height: 350px;
+}
+
+.chameleon:hover img{
+    opacity: 0.33;
+    transform: scale(1.2)
+}
+
+.chameleon p{
+    opacity: 0;
+}
+
+.chameleon:hover p{
+    position: absolute;
+    top: 240%;
+    left: 22%;
+    transform: translate(-50%,-50%);
+    opacity: 1;
+}
+
+.camel{
+    border-radius: 20px;
+    background-color: coral;
+    float: left;
+    margin: 30px;
+    padding: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 600px;
+    height: 350px;
+}
+
+.camel:hover img{
+    opacity: 0.33;
+    transform: scale(1.2)
+}
+
+.camel p{
+    opacity: 0;
+}
+
+.camel:hover p{
+    position: absolute;
+    top: 240%;
+    left: 68%;
+    transform: translate(-50%,-50%);
+    opacity: 1;
+}
